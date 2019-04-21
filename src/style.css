@@ -1,0 +1,37 @@
+.LR{
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid black;
+  padding-top: 25px;
+}
+
+.subject {
+  border-bottom: 1px solid black;
+}
+
+.subject.right{
+  margin-bottom: 10px;
+}
+
+.Right_todos{
+  padding-right: 50px;
+}
+
+.left{
+  display: flex;
+  flex-direction: column;
+}
+.subject.left{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+.Search_Bar{
+  padding-bottom: 25px;
+}
+.right_button{
+  padding-left: 50px;
+}
+.left_button{
+  padding-left: 50px;
+}
